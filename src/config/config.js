@@ -5,7 +5,8 @@ const serverSettings = {
 
 // user management service parameters
 const sensorManagementOptions = {
-	host: "192.168.99.100",
+	//host: "192.168.99.100",
+	host: "http://sensor-management"
 	port: 5001
 }
 
