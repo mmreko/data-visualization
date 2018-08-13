@@ -116,6 +116,7 @@ const repository = () => {
 						resolve(null)
 					}
 					extractVisualizationData(result)
+					console.log("Repo: " + visualizationData.s2018)
 					resolve(visualizationData)
 				});
 			});

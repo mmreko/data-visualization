@@ -8,6 +8,7 @@ module.exports = (app, options) => {
 	// GET /visualization/all
 	app.get('/visualization/all', (req, res, next) => {
 		repo.visualizeAll().then(data => {
+			console.log("API: " + data.s2018)
 			res.status(status.OK).json(data)
 		}).catch(next)
 	})
